@@ -1,0 +1,37 @@
+main {
+    background-color: rgb(17, 100, 255);
+    position: relative;
+    z-index: 10;
+}
+
+#merchandise {
+    width: 70%;
+    margin: auto;
+    background-color: rgb(17, 100, 255);
+    padding: 30px 0;
+    
+
+    ul {
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        li {
+            color: white;
+            list-style-type: none;
+            font-size: 10px;
+            display: flex;
+            align-items: center;
+            img {
+                height: 50px;
+                width: 50px;
+                object-fit: contain;
+                margin-right: 5px;
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

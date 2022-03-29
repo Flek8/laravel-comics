@@ -1,0 +1,237 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.footer-top {
+  background-image: url("/img/footer-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px 15%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 380px;
+  align-content: flex-start;
+  position: relative;
+}
+
+.footer-top img {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translate(0, -50%);
+}
+
+.footer-top .list {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.footer-top h3 {
+  color: white;
+  margin: 15px;
+}
+
+.footer-bottom {
+  padding: 20px 15%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #272727;
+  position: relative;
+  z-index: 10;
+}
+
+.footer-bottom .btn {
+  padding: 10px;
+  border: 1px solid #1164ff;
+  color: white;
+  font-weight: bold;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.footer-bottom .btn:hover {
+  cursor: pointer;
+}
+
+.footer-bottom .social {
+  display: flex;
+  align-items: center;
+  color: #1164ff;
+  font-weight: bold;
+}
+
+.footer-bottom .social span {
+  margin-right: 10px;
+}
+
+.footer-bottom .social li {
+  display: inline-block;
+  list-style: none;
+  margin: 0 5px;
+}
+
+.footer-bottom .social li:hover {
+  cursor: pointer;
+}
+
+header {
+  width: 70%;
+  margin: auto;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header ul {
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+
+header ul li {
+  display: inline;
+  line-height: 100px;
+  vertical-align: middle;
+  height: 100%;
+  margin: 10px;
+  font-size: 12px;
+}
+
+header ul li:hover {
+  border-bottom: 4px solid #1164ff;
+}
+
+header ul li:hover a {
+  color: #1164ff;
+}
+
+header ul li a {
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+
+.btn {
+  display: inline-block;
+  padding: 5px 15px;
+  background-color: #1164ff;
+  font-weight: bold;
+  color: white;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+#jumbotron {
+  background-color: black;
+}
+
+#jumbotron #image {
+  height: 270px;
+  background-image: url("/img/jumbotron.jpg");
+  background-position: center;
+  background-size: cover;
+  background-position-y: top;
+  position: relative;
+}
+
+#jumbotron #image .btn {
+  position: absolute;
+  left: 15%;
+  top: 95%;
+}
+
+#jumbotron #content {
+  width: 70%;
+  margin: auto;
+  color: white;
+}
+
+#jumbotron #content #comics {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+#jumbotron #content #comics .box {
+  display: flex;
+  flex-direction: column;
+  width: 16.6666666667%;
+  padding: 10px;
+}
+
+#jumbotron #content #comics .box img {
+  display: inline-block;
+  width: 130px;
+  height: 130px;
+}
+
+#jumbotron #content #comics .box span {
+  margin: 10px 0;
+  text-transform: uppercase;
+  font-size: 10px;
+}
+
+.list li {
+  list-style: none;
+  margin-left: 10px;
+  margin-top: 2px;
+}
+
+.list a {
+  text-decoration: none;
+  color: grey;
+}
+
+main {
+  background-color: #1164ff;
+  position: relative;
+  z-index: 10;
+}
+
+#merchandise {
+  width: 70%;
+  margin: auto;
+  background-color: #1164ff;
+  padding: 30px 0;
+}
+
+#merchandise ul {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#merchandise ul li {
+  color: white;
+  list-style-type: none;
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+}
+
+#merchandise ul li img {
+  height: 50px;
+  width: 50px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin-right: 5px;
+}
+
+#merchandise ul li img:hover {
+  cursor: pointer;
+}
+

@@ -1,0 +1,33 @@
+header {
+    width: 70%;
+    margin: auto;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    ul {
+        height: 100px;
+        display: flex;
+        align-items: center;
+        li{
+            display: inline;
+            line-height: 100px;
+            vertical-align: middle;
+            height: 100%;
+            margin: 10px;
+            font-size: 12px;
+            &:hover {
+                border-bottom: 4px solid rgb(17, 100, 255);
+            }
+            &:hover a {
+                color: rgb(17, 100, 255);
+            }
+            a {
+                font-weight: bold;
+                text-decoration: none;
+                color: black;
+            }
+        }
+    }
+}
