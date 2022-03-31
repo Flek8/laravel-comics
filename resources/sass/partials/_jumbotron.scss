@@ -50,13 +50,18 @@
                     height: 130px;
                     
                 }
-
-                span {
-                    margin: 10px 0;
-                    text-transform: uppercase;
-                    font-size: 10px;
+                a {
+                    text-decoration: none;
+                    span {
+                        
+                        margin: 10px 0;
+                        text-transform: uppercase;
+                        font-size: 10px;
+                        color: white;
+                    }
                 }
             }
+                
         }
     }
 }

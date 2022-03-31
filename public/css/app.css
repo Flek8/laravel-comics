@@ -177,19 +177,21 @@ header ul li a {
   height: 130px;
 }
 
-#jumbotron #content #comics .box span {
+#jumbotron #content #comics .box a {
+  text-decoration: none;
+}
+
+#jumbotron #content #comics .box a span {
   margin: 10px 0;
   text-transform: uppercase;
   font-size: 10px;
+  color: white;
 }
 
 .list li {
   list-style: none;
   margin-left: 10px;
   margin-top: 2px;
-}
-
-.list a {
   text-decoration: none;
   color: grey;
 }
